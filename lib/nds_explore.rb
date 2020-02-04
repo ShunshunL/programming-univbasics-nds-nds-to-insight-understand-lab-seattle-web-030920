@@ -14,5 +14,6 @@ def print_first_directors_movie_titles
   inner_index = 0 
   while inner_index < our_data.length do
     puts "#{our_data[inner_index][:title]}\n"
+    inner_index += 1
   end
 end
