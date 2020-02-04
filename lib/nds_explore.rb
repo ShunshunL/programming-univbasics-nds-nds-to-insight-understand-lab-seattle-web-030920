@@ -10,4 +10,5 @@ end
 
 def print_first_directors_movie_titles
   pp directors_database
+  our_data = directors_database[0]
 end
