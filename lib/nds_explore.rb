@@ -13,7 +13,8 @@ def print_first_directors_movie_titles
   our_data = directors_database[0][:movies]
   inner_index = 0 
   while inner_index < our_data.length do
-    "#{our_data[inner_index][:title]}\n"
+    our_data
+    #"#{our_data[inner_index][:title]}\n"
     inner_index += 1
   end
 end
